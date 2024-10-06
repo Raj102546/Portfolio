@@ -1,3 +1,12 @@
+@media (max-width: 1100px){
+  .footImg{
+    padding: 0;
+    margin: 27px;
+  }
+  .footText{
+    padding-left: 30px;
+  }
+}
 
 @media (max-width: 768px) {
     nav {
@@ -12,7 +21,7 @@
     .headLine span{
       font-size: 8px;
     }
-    .innertext{
+    .innertext{ 
       font-size: 8px;
     }
     .firstSec {
@@ -39,7 +48,7 @@
     }
     .footText {
       width: 100%;
-      padding: 40px 0 28px 20px ;
+      padding: 60px 0 28px 0 ;
       text-align: center;
     }
     .foot3{
@@ -48,6 +57,24 @@
     }
     .footImg {
       padding: 20px 0;
+      margin: 23px;
+    }
+  }
+
+  @media (min-width: 430px) and (max-width: 680px) {
+    .footImg{
+      display: none;
+    }
+    nav {
+      width: 100vw;
+      flex-direction: column;
+      height: auto;
+      padding: 10px;
+      justify-content: center;
+      position: relative;
+    }
+    .fa-phone{
+      display: none;
     }
   }
 
@@ -83,7 +110,7 @@
         margin: 10px 0;
       }
     .callNum{
-      margin-right: 20px;
+      margin-right: 54px;
     }
     .headLine h2 {
       font-size: 16px;
@@ -129,6 +156,10 @@
     .project > h3 {
         font-size: 20px;
     }
+
+    .description{
+      font-size: 12px;
+    }
     .secondSec {
       height: auto;
     }
@@ -143,5 +174,9 @@
     }
     .footImg {
       display: none;
+    }
+    .project-icons img {
+      width: 15px;
+      margin-right: 15px;
     }
   }
